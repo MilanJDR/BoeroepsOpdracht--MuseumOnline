@@ -1,0 +1,15 @@
+html, body{
+    margin: 0;
+    width: 100%;
+}
+
+#clock{
+    width: 100%;
+    position: absolute;
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30%;
+    margin-left: -24px;
+}

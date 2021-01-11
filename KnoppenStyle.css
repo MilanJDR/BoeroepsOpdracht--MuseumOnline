@@ -1,0 +1,63 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+    width: 200px;
+    margin-top: 300px;
+    margin-left: 330px;
+    float: left;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid #fbfbfb;
+    transition: background-color 1s;
+
+  }
+  
+  .btn:hover {
+  background-color: rgb(136, 154, 253);
+  }
+  
+  .btnb {
+    width: 200px;
+    height: 50px;
+    margin-top: 300px;
+    margin-left: 5px;
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid #ffffff;
+    transition: background-color 1s;
+  }
+  
+  .btnb:hover {
+  background-color: rgb(136, 154, 253);
+  }
+  
+  .btnc {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid #ffffff;
+    transition: background-color 1s;
+  }
+  
+  .btnc:hover {
+  background-color: rgb(136, 154, 253);
+  }
+
+  .btnd {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid #ffffff;
+    transition: background-color 1s;
+  }
+  
+  .btnd:hover {
+  background-color: rgb(136, 154, 253);
+  }

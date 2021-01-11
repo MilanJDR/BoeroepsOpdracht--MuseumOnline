@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>WebXR</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="stylesheet" href="VideoStyle.css">
+    <script src="VR/library/aframe.js"></script>
+    <script src="VR/library/ma-webxr.js" defer></script>
+    <script src="VR/app.js" defer></script>
+</head>
+<body>
+
+    <style>
+        .header {
+             padding: 4em;
+             margin: 0;
+             text-align: center;
+             font-size: 30px;
+             color: whitesmoke;
+             background-image: url(Art/Museum1.jpg);
+             background-position: center;
+             margin-top: 0;
+        }
+        
+        body {
+            padding-bottom: 200px;
+        }
+
+    a-scene {
+        width:700px;
+        height:400px;
+      }
+    </style>
+
+    <video autoplay loop>
+        <source src="Art/WebVR.mp4" type="video/mp4">
+    </video>
+
+    <nav>
+        <ul>
+            <li><a href="https://www.lamlisse.nl/">Lam</a></li>
+            <li><a href="Museum Online F1M2.html">Home</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="WebXR.html">WebXR</a>
+            
+    </nav> 
+
+    <div class="header"></div>
+
+    <div style=float:left;>
+        <!-- Hier begint het WebXR component -->
+        <a-scene background="color: white" embedded></a-scene>
+        <!-- Hier eindigt het WebXR component -->
+    </div>
+
+    </body>
+    </html>
