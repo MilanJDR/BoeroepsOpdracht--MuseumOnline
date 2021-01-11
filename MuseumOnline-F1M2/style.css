@@ -26,7 +26,10 @@ nav p {
 }
 
 nav ul {
-  float: left;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
 nav ul li {
