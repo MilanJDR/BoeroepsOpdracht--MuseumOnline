@@ -1,51 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 
-/* background-color: rgb(99, 137, 207); */
-
-body {
-  background-color: rgb(136, 154, 253);
-  background-size: cover;
- }
-
-nav {
-  width: 100%;
-  height: 61px;
-  background-color: rgb(136, 154, 253);
-}
-
-nav p {
-  font-family: arial;
-  color: #222;
-  font-size: 24px;
-  line-height: 55px;
-  float: left;
-  padding: 0px 20px;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-nav ul li {
-  float: left;
-  list-style: none;
-  position: relative;
-}
-
-nav ul li a {
-  display: block;
-  font-family: arial;
-  color: white;
-  font-size: 14px;
-  padding: 22px 14px;
-  text-decoration: none;
-}
 
 .header {
   padding: 4em;
@@ -59,20 +12,11 @@ nav ul li a {
 }
 
 footer {
-  background-color: rgb(155, 155, 155);
+  background-color: rgb(255, 255, 255);
   color: black;
   padding: 20px 30px;
   margin-top: 800px;
   font-family: sans-serif;
-}
-
-nav ul li a:hover {
-  background-color: rgb(241, 241, 241);
-  color: black;
-}
-
-nav ul li:hover ul {
-  display: block;
 }
 
 .slide-1,.slide-2,.slide-3,.slide-4  {       position: relative;
