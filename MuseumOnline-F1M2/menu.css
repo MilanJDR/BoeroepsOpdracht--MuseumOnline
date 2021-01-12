@@ -49,6 +49,10 @@ body {
     line-height: 50px;
 }
 
+
+/* Dropdown */
+
+
 .dropdown {
     position: absolute;
     top: 100%;
@@ -58,7 +62,7 @@ body {
 }
 
 .dropdown li {
-    background: #313131;
+    background: rgb(136, 154, 253);
     display: none;
 }
 

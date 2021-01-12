@@ -2,6 +2,7 @@
 <head>
     <title>WebXR</title>
     <link rel ="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="VideoStyle.css">
     <script src="VR/library/aframe.js"></script>
     <script src="VR/library/ma-webxr.js" defer></script>
@@ -35,22 +36,36 @@
         <source src="Art/WebVR.mp4" type="video/mp4">
     </video>
 
-    <nav>
+    <div class="nav">
         <ul>
-            <li><a href="https://www.lamlisse.nl/">Lam</a></li>
+            <li><a href="https://lamlisse.nl">Lam</a></li>
             <li><a href="Museum Online F1M2.html">Home</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="WebXR.html">WebXR</a>
-            
+            <li>Login</li>    
+            <li><a href="WebXR.html">WebXR</a></li>
+            <li><a href="Contact.html">Contact
+                <ul class="dropdown">
+                    <li><a href="Over ons.html">Over ons</a></li>
+                    <li><a href="Talen.html">Talen</a></li>
+                   
+                </ul>
+            </a></li>
+        </ul>
+    </div>
     </nav> 
 
     <div class="header"></div>
 
-    <div style=float:left;>
-        <!-- Hier begint het WebXR component -->
-        <a-scene background="color: white" embedded></a-scene>
-        <!-- Hier eindigt het WebXR component -->
-    </div>
+    <style>
+        a:link {
+            color:white;
+            text-decoration: none;
+        }
 
+        a:visited {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+ 
     </body>
     </html>
