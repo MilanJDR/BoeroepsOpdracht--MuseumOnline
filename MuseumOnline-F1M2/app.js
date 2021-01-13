@@ -54,6 +54,12 @@ image4.setPosition(-1,2,3);
 image4.setRotation(0,-15,0);
 image4.setScale(1.5,1.5,1.5);
 
+// create a model
+const cuberoom = new Model('assets/models/cube-room/cube-room.gltf')
+cuberoom.setPosition(-2.50535, 0.91001, -3.21484);
+cuberoom.setScale(-1.170, 0.764, 0.902);
+cuberoom.setRotation(0, -36.95, 0);
+
 
 //create a 360 image
 const image360 = new Sky('assets/LamIngang.jpg');
