@@ -8,6 +8,12 @@ melkMeisje.setPosition(-6.138, 0.888, -5.329);
 melkMeisje.setScale(100, 100, 100);
 melkMeisje.setRotation(0, -300.000, 0); 
 
+//create a model
+const truck = new Model('assets/models/stall/stall.gltf');
+truck.setPosition(-1.983, 1.371, -3.141);
+truck.setScale(100, 100, 100);
+truck.setRotation(0, -300.000, 0); 
+
 //create cuberoom
 const cuberoom = new Model('assets/models/cube-room/cube-room.gltf')
 cuberoom.setPosition(-2.50535, 0.91001, -3.21484);
@@ -60,8 +66,8 @@ cylinder.setRadius(0.5);
 cylinder.setPosition(0, 1.414, 1.365);
 cylinder.setScale(1.5, 8.640, 1.5,)
 
-//create a 360 image
-const image360 = new Sky('assets/LamIngang.jpg');
+/*create a 360 image
+const image360 = new Sky('assets/LamIngang.jpg'); */
 
 const spotLight = new SpotLight();
 spotLight.setPosition(1, 9, 3.9);
