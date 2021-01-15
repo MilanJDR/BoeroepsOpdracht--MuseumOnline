@@ -9,10 +9,10 @@ melkMeisje.setScale(100, 100, 100);
 melkMeisje.setRotation(0, -300.000, 0); 
 
 //create a model
-const truck = new Model('assets/models/stall/stall.gltf');
-truck.setPosition(-1.983, 1.371, -3.141);
-truck.setScale(100, 100, 100);
-truck.setRotation(0, -300.000, 0); 
+const stall2 = new Model('assets/models/stall2/scene.gltf');
+stall2.setPosition(-1.983, 1.371, -3.141);
+stall2.setScale(100, 100, 100);
+stall2.setRotation(0, -300.000, 0); 
 
 //create cuberoom
 const cuberoom = new Model('assets/models/cube-room/cube-room.gltf')
